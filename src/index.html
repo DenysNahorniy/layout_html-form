@@ -11,7 +11,125 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <form action="requires">
+
+      <div class="table">
+        <fieldset>
+
+          <legend>Personal information</legend>
+
+          <div class="Surname" minlenght="5"
+        maxlenght="32">
+       Surname:
+            <input type="text">
+          </div>
+
+          <div class="name">
+        Name:
+            <input type="text">
+          </div>
+
+          <div class="number">
+        How old are you?
+            <input type="number"
+            value="12"
+            min="1"
+            max="120"
+            >
+          </div>
+          <div class="date">
+        Full date of birth:
+            <input type="date">
+          </div>
+
+          <div class="checkbox">
+        I accept the term of the agreement
+            <input type="checkbox" required>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="tablequadro">
+        <fieldset>
+          <legend> Registration</legend>
+
+
+          <div class="email">
+          E-mail:
+            <input type="email" name="email"
+            placeholder="email@example.com"
+            >
+          </div>
+
+          <div class="password">
+          Password:
+            <input type="password">
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="information">
+        <fieldset>
+          <legend> An interesting fact about you!</legend>
+
+
+          <div class="quastion">
+          Do you love cats?
+            <input type="radio" name="cats"
+            value="y"
+            >
+              Yes
+            <input type="radio" name="cats"
+          value="n"
+            >
+            No
+          </div>
+          <div class="color">
+          What is your favorite color?
+            <input type="color">
+          </div>
+          <div class="time">
+          What time do you go to bed?
+            <input type="time">
+          </div>
+          <div class="textarea">
+          What are your favorite brand cars?
+            <select name="cars" required
+          multiple>
+              <option value="BMW">BMW</option>
+              <option value="Audi">Audi</option>
+              <option value="Lada">Lada</option>
+            </select>
+          </div>
+          <div class="range">
+          How do you rate our work?
+            <input type="range">
+          </div>
+        </fieldset>
+      </div>
+
+      <fieldset>
+        <legend>Additional info:</legend>
+
+        <div class="coments">
+          Comments:
+          <textarea name="Name"  cols="20"
+          rows="2">
+          </textarea>
+        </div>
+        <div class="recommend">
+          Would recommend us?
+          <select name="yn">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+
+      </fieldset>
+      <div class="button">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

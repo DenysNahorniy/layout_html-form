@@ -1,1 +1,52 @@
 /* styles go here */
+.Surname {
+  padding: 0 0 10px;
+}
+
+.name {
+  padding: 0 0 10px;
+}
+
+.number {
+  padding: 0 0 10px;
+}
+
+.date {
+  padding: 0 0 10px;
+}
+
+.table {
+  padding: 0 0 20px;
+}
+
+.email {
+  padding: 0 0 10px;
+}
+
+.tablequadro {
+  padding: 0 0 20px;
+}
+
+.quastion {
+  padding: 0 0 10px;
+}
+
+.color {
+  padding: 0 0 10px;
+}
+
+.textarea {
+  padding: 10px 0;
+}
+
+.information {
+  padding: 0 0 20px;
+}
+
+.coments {
+  padding: 0 0 10px;
+}
+
+.button {
+  padding: 20px 0;
+}
