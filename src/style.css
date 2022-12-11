@@ -1,53 +1,8 @@
-/* styles go here */
-.Surname {
-  padding: 0;
-}
-
-.name {
-  padding: 10px 0;
+.field:not(:last-child) {
   display: block;
+  margin-bottom: 10px;
 }
 
-.number {
-  padding: 0;
-  display: block;
-}
-
-.date {
-  padding: 10px 0;
-  display: block;
-}
-
-.email {
-  padding: 0 0 10px;
-  display: block;
-}
-
-.quastion {
-  padding: 0 0 10px;
-  display: block;
-}
-
-.color {
-  padding: 0 0 10px;
-  display: block;
-}
-
-.time {
-  padding: 0 0 10px;
-  display: block;
-}
-
-.textarea {
-  padding: 0 0 10px;
-  display: block;
-}
-
-.coments {
-  padding: 0 0 10px;
-  display: block;
-}
-
-fieldset {
+.fieldset {
   margin-bottom: 20px;
 }
